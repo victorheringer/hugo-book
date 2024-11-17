@@ -1,3 +1,32 @@
 /* You can add custom styles here. */
 
 // @import "plugins/numbered";
+
+.markdown p, .markdown a, .markdown p, .markdown em {
+  font-size: 14px;
+}
+
+
+h1, .markdown h1 > a {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  font-weight: bolder;
+}
+
+.book-menu-content ul li {
+  font-size: 12px;
+}
+
+pre {
+  font-size: 13px;
+}
